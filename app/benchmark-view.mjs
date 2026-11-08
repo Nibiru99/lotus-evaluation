@@ -1,0 +1,7 @@
+const root=document.getElementById('benchmark-panel'),api=window.lotus;
+if(root){
+ let busy=false;
+ async function refresh(){if(busy)return;busy=true;try{const s=await api.benchmarkStatus();root.querySelector('[data-benchmark-status]').textContent=`${s.status.toUpperCase()}${s.error?' · '+s.error:''}${s.replay?' · '+s.replay.timed_outputs+' outputs independently replayed':''}`;root.querySelector('[data-benchmark-run]').disabled=['running','verifying'].includes(s.status);const body=root.querySelector('tbody');body.replaceChildren();for(const row of s.rows){const tr=document.createElement('tr');for(const value of [row.n,row.batch,row.method,(Number(row.seconds)*1000).toFixed(4)]){const td=document.createElement('td');td.textContent=value;tr.append(td);}body.append(tr);}}catch(e){root.querySelector('[data-benchmark-status]').textContent=e.message;}finally{busy=false;}}
+ root.querySelector('[data-benchmark-run]').onclick=async()=>{try{const options={backend:root.querySelector('[data-benchmark-backend]').value,mode:root.querySelector('[data-benchmark-mode]').value};const gpu=document.querySelector('[data-hardware-gpu]')?.value;if(options.backend==='cuda'&&gpu){if(!gpu.startsWith('GPU-'))throw Error('CUDA backend requires an admitted NVIDIA device');options.gpuUuid=gpu;}await api.runBenchmark(options);await refresh();}catch(e){root.querySelector('[data-benchmark-status]').textContent=e.message;}};
+ const timer=setInterval(refresh,500);window.addEventListener('pagehide',()=>clearInterval(timer),{once:true});refresh();
+}

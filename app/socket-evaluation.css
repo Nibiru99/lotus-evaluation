@@ -1,0 +1,6 @@
+.socket-results{overflow-x:auto;margin:20px 0}
+.socket-results table{border-collapse:collapse;width:100%;text-align:left}
+.socket-results th,.socket-results td{padding:12px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+.socket-results td{font:13px ui-monospace,monospace;color:var(--muted)}
+#socket-evaluation [data-status]{margin-top:18px;line-height:1.6}
+#socket-evaluation [data-detail]{overflow-wrap:anywhere;line-height:1.6}

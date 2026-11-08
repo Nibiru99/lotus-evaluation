@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lotus · Evaluation</title>
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="hardware.css"><link rel="stylesheet" href="socket-evaluation.css">
+<script type="module" src="hardware-capabilities-view.mjs"></script><script type="module" src="evaluation-view.mjs"></script><script type="module" src="selected-crystal-view.mjs"></script><script type="module" src="benchmark-view.mjs"></script><script type="module" src="requirements-view.mjs"></script>
+</head><body><aside class="sidebar"><div class="brand"><span class="brand-mark">✳</span><div>LOTUS<br><strong>Evaluation</strong></div></div><div class="author">David Glowalla · UTOPIA</div>
+<nav aria-label="Evaluation navigation"><button data-view="observatory" aria-current="page">Operator observation</button><button data-view="evaluation">Central crystal tests</button><button data-view="benchmark">Matched benchmarks</button></nav>
+<div class="sidebar-note">LOCAL EVALUATION<p>Live workload receipts, benchmark comparisons and three selected mathematical carriers.</p></div></aside>
+<div class="workspace"><header class="topbar">Hardware observation · selected center tests</header><main id="main"><section id="view-observatory" class="page">        <details id="hardware-capabilities" class="protocol-card">
+          <summary>Hardware inventory &amp; installation requirements</summary>
+          <p data-hardware-cpu></p>
+          <label>GPU for next CUDA observation <select data-hardware-gpu disabled aria-label="Select detected GPU for next CUDA observation"></select></label>
+          <button data-hardware-refresh class="secondary">Refresh hardware inventory</button>
+          <p data-hardware-status role="status">Reading local hardware…</p><p data-hardware-detail></p>
+          <p>Use the vendor tools already installed on your machine. Lotus does not install drivers or change hardware settings. The CPU checks, CUDA workload and optional energy capture have separate requirements.</p>
+          <ul>
+            <li>NVIDIA: compatible driver and the CUDA runtime/packages required by the selected test. Inventory uses the driver's nvidia-smi tool. <a href="https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/">Official CUDA installation guide</a> · <a href="https://docs.nvidia.com/deploy/nvidia-smi/index.html">NVIDIA telemetry reference</a></li>
+            <li>AMD CPU energy/profiling: optional AMD uProf, subject to processor and OS support. Installing it does not enable AMD GPU execution. <a href="https://www.amd.com/en/developer/uprof.html">Official AMD uProf downloads</a></li>
+            <li>AMD GPU: graphics detection is separate from compute support; a ROCm/HIP adapter still needs implementation and validation. <a href="https://rocm.docs.amd.com/projects/amdsmi/en/latest/install/install.html">AMD SMI prerequisites</a></li>
+          </ul>
+          <p>Official setup links open in your browser only when selected. Lotus does not download or install these tools.</p>
+        </details></section><section id="view-evaluation" class="page" hidden><h1>One central test socket</h1><p>Choose one of three specimens. These are source-backed host checks; GPU map timings have a separate workload. Operands use ordinary host buffers; one selected specimen supplies the center operation. These mathematical models are evaluated as finite numerical carriers.</p>        <div id="selected-crystal-evaluation" class="protocol-card">
+          <h2>Three selected crystals</h2>
+          <label>Active specimen <select data-crystal><option value="probability">Probability Transport</option><option value="wave">Travelling Wave</option><option value="word64">64-bit Word / Subtraction</option></select></label>
+          <button data-run-selected class="secondary">Run selected crystal</button>
+          <p data-selected-help class="intro narrow"></p><p data-selected-status role="status">Connecting…</p>
+          <div class="socket-results"><table><thead><tr><th>Case</th><th>Result</th><th>Check error</th><th>Source model time</th></tr></thead><tbody></tbody></table></div>
+          <p class="hw-legend">Live host-side source-backend checks. Ordinary CPU/staging buffers feed one central specimen. This test performs no GPU dispatch; GPU power and timing belong to the separate hardware workload.</p>
+        </div>
+</section><section id="view-benchmark" class="page" hidden><h1>Matched hardware benchmarks</h1><p>Run the published complex128 pair-map fixture against CPU and GPU references. Setup, resident application and full transfer paths retain their own timing scopes. Results become complete only after independent full-output replay.</p><div id="benchmark-panel" class="protocol-card"><label>Backend <select data-benchmark-backend><option value="cpu">CPU references</option><option value="cuda">NVIDIA CUDA + CPU references</option></select></label><label>Run <select data-benchmark-mode><option value="smoke">Short admission</option><option value="benchmark">Repeated benchmark</option></select></label><button data-benchmark-run class="secondary">Run matched benchmark</button><p data-benchmark-status role="status">Ready</p><div class="socket-results"><table><thead><tr><th>Coordinates</th><th>Batch</th><th>Method</th><th>ms</th></tr></thead><tbody></tbody></table></div><p>Separate from the simplex observation and center tests. No energy estimate is produced here. Full inputs, outputs, environment, timings and independent replay are saved in the local data folder. Run three fresh processes before drawing sustained performance conclusions.</p></div></section></main></div></body></html>

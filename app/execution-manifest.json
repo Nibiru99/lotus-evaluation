@@ -1,0 +1,35 @@
+{
+  "files": {
+    "app/benchmark-controller.cjs": "a7b0d6d479065aef24096c65792c9dba9a0ec53fe244d31b21b334d62dc197ac",
+    "app/benchmark-view.mjs": "ee32217e7702ea03492178397bf06beca9d6051546c2306a2a9c513f31ad3ad4",
+    "app/bin/lotus-center.exe": "d8c3f8c20da648dcd85a1d72f04b7784267f8c08ddd882d76abe1a428b2d2c68",
+    "app/canonical-circle.mjs": "65b2ea86753a6e5c5d65879d952022496fafa9e0d86d093f5c8b0fc003f2db7a",
+    "app/evaluation-policy.cjs": "8872bd8412ed8159831dbebaea9c06849eda4c218cbcdb0bd4fc4381871295e8",
+    "app/evaluation-view.mjs": "fe8fbe009b006258e92d15cb0fcde153c1a8c56bea40925a1cf8c793d7761186",
+    "app/hardware-capabilities-view.mjs": "3f984697d85ac4e6b533c1ef6e5cf486dfc00a9b413a7e842e8a45cd39c722cb",
+    "app/hardware-capabilities.cjs": "1d2a2a33af3356cbcc3743fc06374afa66bf61329dc8bca9210892b4b0be77e0",
+    "app/hardware-state.mjs": "76cdf7fd9bcba3b955e52e1dccaffa4d9b21126ce318fec0c45ce47786f7cde1",
+    "app/hardware-view.mjs": "a377dd3d7db0181056defa434c9242b2988f975582cfd17c9967e5bc12ebadb2",
+    "app/hardware.css": "0019f38fa9b0f2ee1bbcf94b6e247490f39072dad88bbb34bc0556f69a69e956",
+    "app/index.html": "b0856f6825012066a8e99b7640c3b565f12fe71c315d33b17fea271916e453af",
+    "app/live-probe.cjs": "f473dffd0cd07648540d5f297995c5aa4d555f8c05996f20b95668cc2806d773",
+    "app/live-scene.mjs": "b10e15b6252cc55b45928ad768f702d7ea40cebd60d30dbafd7410f8fd599e53",
+    "app/main.cjs": "b3d74cf765ec2dbb7ba725825cdb0f01c371a609cb9ac054c51ad7011e419384",
+    "app/operator-scene.mjs": "e7220dea91abdfa67ed0fcaf2bac7db1b3a98c9944423d1c2fa65b5f9e34e20b",
+    "app/package.json": "3ab90b99eb01f42067065fde685c974bfc1dba17530c9b388d37bba012ae1a78",
+    "app/preload.cjs": "1ec46cf656c0c2d92b8ba03fcab81792928115ddce4d20b76eb38804484ca955",
+    "app/requirements-view.mjs": "6a033ee4861aa88c377ccdc07ea742993a22932a6913b006b0c52320ac89d785",
+    "app/resources.cjs": "6be28b61a994ab187d652793887a748e3133850228861395b313ef11fce0b0ca",
+    "app/runtime/check_center.py": "717ff7f2620bbd8cecc80811ea3044e6c87deae2b3c51abb5eb4440e1ac4e4ff",
+    "app/runtime/live_probe.py": "1d3172af2a8767729b06021f51ac7f5f312ebbcf688b5c6cc1c83cf10b980575",
+    "app/runtime/simplex_map.py": "b1cf0d2880ae578fdad7d242d6f01d3faaf05a40748a23ffe2c81f6c2007d97b",
+    "app/selected-crystal-evaluation.cjs": "611ebdd3799d1e42d5e87edc27de254f6a01c8bc04fa5042835675d5cddc09fb",
+    "app/selected-crystal-view.mjs": "9d0c1d9616ac0ee5bddefaa11f7532c3f56173196dc4ecef6254334b4e67c7c5",
+    "app/socket-evaluation.css": "6f1a2ff912e1a7c5512125446df7c7c0bf151bd7ff7a228065b785d824369695",
+    "app/styles.css": "1820631c4a58f068c0ddea6e126828be4160d561bba58f8aa4e3b90325e7ba74"
+  },
+  "producers": {
+    "dense-reference": "1d3172af2a8767729b06021f51ac7f5f312ebbcf688b5c6cc1c83cf10b980575"
+  },
+  "mapSha256": "b1cf0d2880ae578fdad7d242d6f01d3faaf05a40748a23ffe2c81f6c2007d97b"
+}

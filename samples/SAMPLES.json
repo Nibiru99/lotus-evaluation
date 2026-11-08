@@ -1,0 +1,33 @@
+{
+  "schema": "lotus.three-sample-selection/1",
+  "samples": [
+    {
+      "key": "probability",
+      "title": "Probability Transport Crystal (20\u00b0C, \u03c3=0.71)",
+      "file": "probability.json",
+      "sourceExportSha256": "53c3ea5aff9b5b0ea30950efaeda0a75da386613703f17fe860f67d30d92aea6",
+      "sampleSha256": "30fb363e59d78c7b9161cf15fd2aa6c36eb2b1bb60ae85b08137184590828222",
+      "doi": "10.5281/zenodo.23997743",
+      "sourceFinding": "found_math_probability_crystal_1793588405226"
+    },
+    {
+      "key": "wave",
+      "title": "Travelling Wave Boundary Crystal (20\u00b0C, \u03c3=0.28)",
+      "file": "wave.json",
+      "sourceExportSha256": "7d550fc0fd06b908020f1624ef95b68baa56b7c4ddfc05616088ba0f3e579bc9",
+      "sampleSha256": "17e76f04c5f151472298d8587992b9f0535f69adddc0dcde257545c1aab6c501",
+      "doi": "10.5281/zenodo.23998696",
+      "sourceFinding": "found_math_wave_crystal_1793591302018"
+    },
+    {
+      "key": "word64",
+      "title": "64-bit Word / Subtraction Crystal (20\u00b0C, \u03c3=0.38)",
+      "file": "word64.json",
+      "sourceExportSha256": "2fba665dff899511eb5ad66beaa6d49a90192783ad025dc55b860c86e67ff0e2",
+      "sampleSha256": "20c4555e670aea2da692c5f4f31c731a233434b3973e82163c8856ae36455ac4",
+      "doi": "10.5281/zenodo.23998732",
+      "sourceFinding": "found_math_word64_crystal_1793590475081"
+    }
+  ],
+  "status": "Local review only; rights and exact disclosure approval pending"
+}

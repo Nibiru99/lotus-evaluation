@@ -1,0 +1,48 @@
+{
+  "schema": "lotus.base-benchmark/0.1.1",
+  "fixture": "Deliberately public seeded synthetic operator, independent of research map",
+  "fixture_seed": 20261107,
+  "block_size": 512,
+  "layers": 72,
+  "pairs_per_layer": 256,
+  "dimensions": [
+    512,
+    8192,
+    65536
+  ],
+  "batch_sizes": [
+    1,
+    8
+  ],
+  "absolute_tolerance": 1e-12,
+  "candidate_builds": [
+    {
+      "architecture": "SM80",
+      "sha256": "495c2868a200fa13a0e7271ba97b499c2560556299294f96f53eeeec66f7b69f",
+      "status": "existing compiled candidate; runtime validation on the selected public fixture recorded separately"
+    },
+    {
+      "architecture": "SM86",
+      "sha256": "0feed0699f1657e5393d7e1bbeec4655d819bb4c25e5f4acf5a32b467562c684",
+      "status": "existing compiled candidate; runtime validation on the selected public fixture recorded separately"
+    },
+    {
+      "architecture": "SM89",
+      "sha256": "4c04fdcb59a4f177809c0117bc1f3802264ac37c01a168808a0a7641c8b53f3a",
+      "status": "existing compiled candidate; runtime validation on the selected public fixture recorded separately"
+    },
+    {
+      "architecture": "SM90",
+      "sha256": "8add9d86f77ae2c3280b78569b2b78ffc344e3cb5451cdb735f51a5ae5e4a19a",
+      "status": "existing compiled candidate; runtime validation on the selected public fixture recorded separately"
+    }
+  ],
+  "source_kernel_included": false,
+  "crystal_socket_included": false,
+  "private_checkpoint_included": false,
+  "private_research_operator_included": false,
+  "boundary": "Independent repeated512-coordinate blocks; no cross-block mixing",
+  "status": "Local review candidate; no distribution or licence approval",
+  "residual_disclosure": "Compiled optimization code is supplied for review; binary delivery cannot guarantee protection from reverse engineering",
+  "energy": "No power stream is captured by this runner; do not infer joules from timings"
+}

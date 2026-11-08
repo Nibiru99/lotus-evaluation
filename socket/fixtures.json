@@ -1,0 +1,12 @@
+{
+  "schema": "lotus.socket-fixtures/1",
+  "operation": "subtract-u64",
+  "cases": [
+    {"job": 1, "left": "0", "right": "0"},
+    {"job": 2, "left": "9", "right": "4"},
+    {"job": 3, "left": "0", "right": "1"},
+    {"job": 4, "left": "18446744073709551615", "right": "7"},
+    {"job": 5, "left": "9007199254740999", "right": "3"},
+    {"job": 6, "left": "18446744073709551615", "right": "18446744073709551615"}
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "lotus.package-manifest/v1",
+  "files": [
+    {
+      "path": "binaries/candidate-sm80.cubin",
+      "bytes": 6951,
+      "sha256": "495c2868a200fa13a0e7271ba97b499c2560556299294f96f53eeeec66f7b69f"
+    },
+    {
+      "path": "binaries/candidate-sm86.cubin",
+      "bytes": 6951,
+      "sha256": "0feed0699f1657e5393d7e1bbeec4655d819bb4c25e5f4acf5a32b467562c684"
+    },
+    {
+      "path": "binaries/candidate-sm89.cubin",
+      "bytes": 6951,
+      "sha256": "4c04fdcb59a4f177809c0117bc1f3802264ac37c01a168808a0a7641c8b53f3a"
+    },
+    {
+      "path": "binaries/candidate-sm90.cubin",
+      "bytes": 7903,
+      "sha256": "8add9d86f77ae2c3280b78569b2b78ffc344e3cb5451cdb735f51a5ae5e4a19a"
+    },
+    {
+      "path": "fixture.npz",
+      "bytes": 4367366,
+      "sha256": "b62f3ad4088ca79013a4dec1e989b6fd8150c43badeac4275ebc200e03502d98"
+    },
+    {
+      "path": "generate_fixture.py",
+      "bytes": 1525,
+      "sha256": "ff95c135055a54b21c9cfc188acc85284cea59d878cc755dcc85a7cc15d861dd"
+    },
+    {
+      "path": "POWER-PROTOCOL.md",
+      "bytes": 1973,
+      "sha256": "f5c7cf747fe0fb42ced78d7b11235fce3b2c7828a4f3ff3190592b95662309bd"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 1954,
+      "sha256": "c889f1d3ce1863c9c8179f08c909d76890df7a8dfaedcce1bbeb2032feb4940e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3000,
+      "sha256": "7c2edbef3a690c014d3e430fdd54bb1f26ae3c506e3fe02ebf76b45ada7d4be0"
+    },
+    {
+      "path": "replay_results.py",
+      "bytes": 4007,
+      "sha256": "b6f4ac4364f3ce15194d3bb1412aa377ef07b9af030b6ce7c8a41cde84adec6a"
+    },
+    {
+      "path": "requirements-reference.txt",
+      "bytes": 224,
+      "sha256": "aca21ad106f714256138cf8d53c27693915cbb5b64c0055695a97e8bb8990e04"
+    },
+    {
+      "path": "run_benchmark.py",
+      "bytes": 12235,
+      "sha256": "4bad75d613ed3972d09a2ac4ba0d26e6d8787b391168dadc7f3594783f5ce74e"
+    },
+    {
+      "path": "summarize_results.py",
+      "bytes": 3796,
+      "sha256": "29ce1efb813d148d9d83cbc82043b273d8e54fa719779e8239cc76ef8485d7f1"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 1641,
+      "sha256": "441c42a0ac91d23e1419f13668a04fd17ce0bbcbabb99768ce26c3dd400c3eb0"
+    }
+  ]
+}

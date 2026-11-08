@@ -1,0 +1,20 @@
+{
+  "schema": "lotus.synthetic-preflight-manifest/v1",
+  "files": [
+    {
+      "path": "preflight.py",
+      "bytes": 6903,
+      "sha256": "a36b5dfc4f5e25bc7434565091d415143de2449f5442a1767193cf43ad17ec45"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1511,
+      "sha256": "9fef194436cc3b347a54e6339fc3d517d5cc91a9faf640a8199f780e5b0a63d5"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 1607,
+      "sha256": "4a442a5e3d69a46b20d30e2df131985616d2a86cccbe0dc9cfed845dbc98913b"
+    }
+  ]
+}

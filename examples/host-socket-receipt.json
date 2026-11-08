@@ -1,0 +1,172 @@
+{
+  "schema": "lotus.socket-evaluation/1",
+  "fixtureSha256": "b82301a31809d7a7236b1f32ba0198276c6ce234e5e82e2ae83ce030f20b5258",
+  "execution": "host-source-bound",
+  "hardwareAccelerationTested": false,
+  "resumeAfterJob": 3,
+  "resumeMatchesUninterrupted": true,
+  "results": [
+    {
+      "job": 1,
+      "resultHex": "0000000000000000",
+      "postSourceHex": "0000000000000000",
+      "finalBorrow": 0,
+      "acceptedSites": 5,
+      "timesBefore": {
+        "left": 8.12879999999974,
+        "right": 8.920449999999946,
+        "output": 7.799999999999988
+      },
+      "timesAfter": {
+        "left": 8.14879999999974,
+        "right": 8.940449999999945,
+        "output": 7.819999999999988
+      },
+      "stateHashesBefore": {
+        "left": "3b402ad128e62622fb6bb8f15a996da01deba4422e3776aba3e4ff08de267bfe",
+        "right": "82d0d98c8a831370beee3327164e5e286aee86c6a602218dd4a138f4cc4738df",
+        "output": "d0ef025999fc9a95a567b68be440f5a5e80813a5f830130ae62586381bfa88a9"
+      },
+      "stateHashesAfter": {
+        "left": "1b744fb1393c1c63a48d92c31f640619716974b2100a2234563a9d3cae06043c",
+        "right": "a2dbd35bc5b9e39a5b21d77312d9ee76bd835602394e32299bcd34b564a18d06",
+        "output": "2197c3e3281fde48872409e9d3cd52d07a9fbd1f16d0343705c8fbd041979f77"
+      }
+    },
+    {
+      "job": 2,
+      "resultHex": "0000000000000005",
+      "postSourceHex": "0000000000000005",
+      "finalBorrow": 0,
+      "acceptedSites": 5,
+      "timesBefore": {
+        "left": 8.14879999999974,
+        "right": 8.940449999999945,
+        "output": 7.819999999999988
+      },
+      "timesAfter": {
+        "left": 8.16879999999974,
+        "right": 8.960449999999945,
+        "output": 7.839999999999987
+      },
+      "stateHashesBefore": {
+        "left": "1b744fb1393c1c63a48d92c31f640619716974b2100a2234563a9d3cae06043c",
+        "right": "a2dbd35bc5b9e39a5b21d77312d9ee76bd835602394e32299bcd34b564a18d06",
+        "output": "2197c3e3281fde48872409e9d3cd52d07a9fbd1f16d0343705c8fbd041979f77"
+      },
+      "stateHashesAfter": {
+        "left": "7d8c13158153401fb75e932e10c79d86ee649f1bd90c262555949869ad028d73",
+        "right": "5543fb071d523ebc7e28bc409ef6bd826e054065aad2e87c803942f1e15bee22",
+        "output": "344496cf3aabd45ddfc0e72bf3580a6ba0f7aace9ea81d7ef3864d24f14524bb"
+      }
+    },
+    {
+      "job": 3,
+      "resultHex": "ffffffffffffffff",
+      "postSourceHex": "ffffffffffffffff",
+      "finalBorrow": 1,
+      "acceptedSites": 5,
+      "timesBefore": {
+        "left": 8.16879999999974,
+        "right": 8.960449999999945,
+        "output": 7.839999999999987
+      },
+      "timesAfter": {
+        "left": 8.18879999999974,
+        "right": 8.980449999999944,
+        "output": 7.859999999999987
+      },
+      "stateHashesBefore": {
+        "left": "7d8c13158153401fb75e932e10c79d86ee649f1bd90c262555949869ad028d73",
+        "right": "5543fb071d523ebc7e28bc409ef6bd826e054065aad2e87c803942f1e15bee22",
+        "output": "344496cf3aabd45ddfc0e72bf3580a6ba0f7aace9ea81d7ef3864d24f14524bb"
+      },
+      "stateHashesAfter": {
+        "left": "7348934ed2f6f588f3dcd14e7ed151e4e7f6e9601879a0007b219d9cad2ce67a",
+        "right": "33345784e0fe943e50bfd17fe22fa38168270e0ed5fb56c5d9ceb58284fbc03b",
+        "output": "0959e789af81ccf1ed631e000b3604fb489bae540dcb4fc9fd35be1d02324da1"
+      }
+    },
+    {
+      "job": 4,
+      "resultHex": "fffffffffffffff8",
+      "postSourceHex": "fffffffffffffff8",
+      "finalBorrow": 0,
+      "acceptedSites": 5,
+      "timesBefore": {
+        "left": 8.18879999999974,
+        "right": 8.980449999999944,
+        "output": 7.859999999999987
+      },
+      "timesAfter": {
+        "left": 8.208799999999739,
+        "right": 9.000449999999944,
+        "output": 7.879999999999987
+      },
+      "stateHashesBefore": {
+        "left": "7348934ed2f6f588f3dcd14e7ed151e4e7f6e9601879a0007b219d9cad2ce67a",
+        "right": "33345784e0fe943e50bfd17fe22fa38168270e0ed5fb56c5d9ceb58284fbc03b",
+        "output": "0959e789af81ccf1ed631e000b3604fb489bae540dcb4fc9fd35be1d02324da1"
+      },
+      "stateHashesAfter": {
+        "left": "fab1dd91df0fa481d16810a7652f90c7da8f3758791662205b6ff83ab0aff7f6",
+        "right": "86be9583562575c10aa45737bfad1ad4f4532dd133e81e18a20bff24a6553732",
+        "output": "da0b9fbb71920b66be60e6ef96207741b2775a2e67db1cfef119f17050755986"
+      }
+    },
+    {
+      "job": 5,
+      "resultHex": "0020000000000004",
+      "postSourceHex": "0020000000000004",
+      "finalBorrow": 0,
+      "acceptedSites": 5,
+      "timesBefore": {
+        "left": 8.208799999999739,
+        "right": 9.000449999999944,
+        "output": 7.879999999999987
+      },
+      "timesAfter": {
+        "left": 8.228799999999739,
+        "right": 9.020449999999943,
+        "output": 7.899999999999986
+      },
+      "stateHashesBefore": {
+        "left": "fab1dd91df0fa481d16810a7652f90c7da8f3758791662205b6ff83ab0aff7f6",
+        "right": "86be9583562575c10aa45737bfad1ad4f4532dd133e81e18a20bff24a6553732",
+        "output": "da0b9fbb71920b66be60e6ef96207741b2775a2e67db1cfef119f17050755986"
+      },
+      "stateHashesAfter": {
+        "left": "dd327b06f18bcd140d485b5c45c53eff12e31c7b404b577c9c4b694813894f3a",
+        "right": "3fb1d07b92801d14ec09a46d49582ab6d7bb5abde30646d455652cfa08292e59",
+        "output": "7abd177c201de9a8e65115d4a2723baa83ddf2a1242fe7835732013c0f488aa6"
+      }
+    },
+    {
+      "job": 6,
+      "resultHex": "0000000000000000",
+      "postSourceHex": "0000000000000000",
+      "finalBorrow": 0,
+      "acceptedSites": 5,
+      "timesBefore": {
+        "left": 8.228799999999739,
+        "right": 9.020449999999943,
+        "output": 7.899999999999986
+      },
+      "timesAfter": {
+        "left": 8.248799999999738,
+        "right": 9.040449999999943,
+        "output": 7.919999999999986
+      },
+      "stateHashesBefore": {
+        "left": "dd327b06f18bcd140d485b5c45c53eff12e31c7b404b577c9c4b694813894f3a",
+        "right": "3fb1d07b92801d14ec09a46d49582ab6d7bb5abde30646d455652cfa08292e59",
+        "output": "7abd177c201de9a8e65115d4a2723baa83ddf2a1242fe7835732013c0f488aa6"
+      },
+      "stateHashesAfter": {
+        "left": "95e06f6d170950e388559a5fe4e1b9f613f97b56527dc580fe5689c680b629df",
+        "right": "d275c94d11aa52c7a563c2cbcbbd1ac63fba33ec6fd3bb24511cda7f8b89abd0",
+        "output": "09cd16aef32696abe27cfc08442c47f32fb09c401a1113a27a215dbcc91674f8"
+      }
+    }
+  ]
+}

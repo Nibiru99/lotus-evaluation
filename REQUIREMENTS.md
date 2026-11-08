@@ -1,0 +1,7 @@
+# Installation requirements
+
+The native center worker is Windows x64. Desktop acceptance is tested with Electron42.0.1; supply an independently installed Electron runtime using LOTUS_ELECTRON_EXE, then double-click Start Lotus.cmd. Official instructions: https://www.electronjs.org/docs/latest/tutorial/installation . No runtime or dependency is downloaded automatically.
+
+Use Python3.11+ for independent checks and benchmarks. LOTUS_PYTHON can name your chosen interpreter. NumPy and threadpoolctl are required for benchmarks; the live GPU observation also uses psutil. CUDA additionally needs compatible NVIDIA drivers and CuPy. See benchmark/requirements-reference.txt for the recorded environment and https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ for vendor setup. nvidia-smi supplies device inventory and available watt readings. AMD/Intel CPU references work through NumPy; AMD GPU compute is not integrated. AMD uProf is optional profiling tooling, not a CUDA substitute: https://www.amd.com/en/developer/uprof.html .
+
+LOTUS_DATA_DIR can select a writable results/profile folder. By default it is a sibling lotus-evaluation-data folder, outside the sealed package. No clocks, voltages, power limits or drivers are changed. Selected GPU UUID applies only to started processes. Crystal checks run on the host CPU; hardware observation and compiled GPU pair-map comparisons are separate operations.

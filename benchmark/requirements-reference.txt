@@ -1,0 +1,5 @@
+# Recorded evaluation environment; no automatic installation is performed.
+numpy==2.3.5
+threadpoolctl==3.6.0
+# Optional NVIDIA backend only, supplied by the evaluator's compatible CUDA environment:
+cupy-cuda13x==14.2.0
